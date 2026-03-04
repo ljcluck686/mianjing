@@ -1,0 +1,19 @@
+1，hashtable,hashmap,treemap的区别
+2,  synchronized 和 reentrantLock的区别
+3，详细讲解synchronized锁，会不会引起阻塞
+4，详细讲解类加载机制
+5，讲解泛型的使用，反射的使用步骤
+6，jvm的gc cms 标记清除 （问的比较深，建议背死八股）
+7，四种引用类型的区别，用法
+8，activityA -> activityB ->activityA 这个过程中A，B生命周期方法的调用
+9， Handler源码， handler中谁负责取消息
+10， 自定义view ,view的创建和activity的创建之间的关联
+11，MVVM,MVP,MVC的优势和劣势
+12，RXJAVA, 和 rxjava中的常用操作符
+13， retrofit（浅问）
+14,  okhttp的5个interceptor, 如果有自定义interceptor，这个过滤器添加在5个过滤器中的哪部分
+15，  多线程的创建方式
+16， app启动优化
+17， 线程池中的工作线程从任务队列中获取任务的核心策略
+最后笔试 ： 
+     写一个单例模式
