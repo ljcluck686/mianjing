@@ -1,0 +1,123 @@
+腾讯新闻二面
+
+自我介绍
+
+Retrofit 与 OkHttp 是什么关系？
+
+Retrofit 动态代理是什么？
+
+Java 注解有哪些？网络框架里的注解举例。
+
+HTTP 有哪些版本？
+
+HTTP/1.1、2、3 核心差异？队头阻塞？
+
+TLS1.2 握手流程？
+
+客户端怎么验证服务器证书是可信的？**根证书、系统预装 CA**
+
+TLS1.3 改进在哪里？为什么少 1 RTT？
+
+TLS1.3 随机数是明文吗？怎么加密？
+
+Flow 分为哪些？Cold Flow / Hot Flow？
+
+SharedFlow vs StateFlow 特点与场景？
+
+点击事件、列表滑动用哪种 Flow？
+
+Flow 背压是什么？
+
+StateFlow 能缓存几个 state？队列大小？
+
+ViewModel 作用是什么？
+
+Jetpack ViewModel 和 MVVM 的 VM 是一个东西吗？
+
+MVVM 的 MVVM 各自职责？
+
+MVVM 与 MVP 本质区别？
+
+你理解的协程是什么？
+
+安卓上协程**底层靠什么实现异步**？
+
+协程和线程是一回事吗？
+
+协程如何实现**挂起 → 恢复**，从断点继续执行？
+
+协程 Scope 有哪些？viewModelScope /lifecycleScope/ MainScope 等区别？
+
+这些 Scope 分别什么时候用？
+
+Compose 重组是什么？
+
+可组合函数依赖什么决定是否重组？
+
+减少重组的优化手段？
+
+remember 对重组有帮助吗？作用？
+
+Java 如何判断对象可回收？
+
+哪些可以作为 GC Root？
+
+方法内临时变量算不算 GC Root？
+
+Java 四种引用类型？区别？
+
+你用过弱引用吗？场景？
+
+单例 WorkManager 持有长任务 Runnable，Activity 退出，**是否泄漏**？
+
+引用链是什么？（单例 → 任务 → Runnable → Activity）
+
+如何修复？
+
+Handler 泄漏的**完整引用链**？
+
+非静态内部类 vs 静态内部类区别？是否持有外部类引用？
+
+volatile 作用？可见性、有序性、原子性？
+
+volatile int i; i++ 多线程最终结果是多少？
+
+i++ 拆成哪 3 条 CPU 指令？
+
+ConcurrentHashMap 为什么性能高？
+
+乐观锁 / 悲观锁？
+
+synchronized 是什么锁？CAS 是乐观锁吗？
+
+CHM 用了 CAS 吗？
+
+Java 泛型是编译期还是运行期？泛型擦除？
+
+List<String> 赋值给 List<Object> 是否合法？
+
+想让赋值合法怎么改？? extends / ? super
+
+Kotlin 的 in / out 含义？限制（可读不可写 / 可写不可读）？
+
+by lazy 内部实现？
+
+by 委托（属性委托、类委托）？
+
+覆写委托方法怎么办？
+
+inline / noinline / crossinline 含义？
+
+View 绘制流程：onMeasure /onLayout/onDraw 分别做什么？
+
+Android IPC 跨进程通信有哪些？
+
+Binder 原理？为什么高效（一次拷贝）？
+
+A 启动 B Activity，是否走 Binder？
+
+安卓哪些场景用 Socket？
+
+算法题
+
+反问
